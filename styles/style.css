@@ -1,0 +1,260 @@
+/* common styles  */
+*{
+    padding: 0;
+    margin: 0; 
+}
+.fira-sans{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.section-width{
+    width: 1280px;
+}
+.center{
+    margin:0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+.main-color{
+    color: #0E0E0E;
+}
+/* header css start  */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.logo-text{
+    font-size: 32px;
+    color: #0E0E0E;
+    font-weight: bold;
+}
+
+.header-btn button{
+    font-size: 18px;
+    font-weight: 500;
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding:15px 30px;
+}
+
+/* banner style start here  */
+.banner{
+    background-color: #C6E4D6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 100px;
+    border-radius: 24px;
+}
+
+.section-title{
+
+}
+.section-title h4{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.section-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 50px;
+}
+.banner-btn{
+    background: #006A50;
+    color: white;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+.banner-btn:hover{
+    background: red;
+}
+/* vision of future section style start here  */
+.vision-of-future{
+    margin-top: 80px;
+    background-color: white;
+}
+
+.section-title p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+/* card css start  */
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.card-item1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    border-radius: 17px;
+    max-width: 410px;
+}
+.card-item1 img{
+    margin-bottom: 24px;
+}
+
+.card-item2{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    border-radius: 17px;
+    max-width: 410px;
+}
+.card-item2 img{
+    margin-bottom: 24px;
+}
+.card-btn2{
+    background-color: #09A15C;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 48px;
+}
+.card-item3{
+    background-color: #F7EBCF;
+    padding: 32px;
+    border-radius: 17px;
+    max-width: 410px;
+}
+.card-item3 img{
+    margin-bottom: 24px;
+}
+
+.card-btn3{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #FFC239;
+    margin-top: 64px;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.card-btn{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #5490F5;
+    margin-top: 25px;
+}
+
+/* quote css start */
+.quote{
+    margin-top: 32px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-size: 64px;
+    background-position-y: top left;
+}
+.main-quote{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 400;
+    padding-top: 30px;
+    line-height: 24px;
+}
+.quote-title{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 12px;
+}
+
+.quote-sub-title{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    line-height: 24px;
+    margin-top: 5px;
+    
+}
+
+/* recent new style  */
+.news1-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+
+.submit-date{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 12px;
+}
+.ntime{
+    margin-left: 7px;
+}
+.news-sub-title{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+
+.main-artice{
+    padding-top: 900px;
+}
+.main-artice p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    
+}
+
+.news1-btn{
+    color: white;
+    background: #006A50;
+    padding: 13px 26px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 33px;
+}
+
+
+.news1-btn:hover{
+    background-color: red;
+}
