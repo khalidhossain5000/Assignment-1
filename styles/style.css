@@ -209,6 +209,21 @@ header{
 }
 
 /* recent new style  */
+.recent-news{
+    margin-top: 80px;
+}
+.news1{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.news1-image img{
+    border-radius: 24px;
+}
+.news1-content{
+    margin-left: 32px;
+}
 .news1-title{
     font-size: 32px;
     font-weight: bold;
@@ -232,16 +247,14 @@ header{
     line-height: 24px;
 }
 
-.main-artice{
-    padding-top: 900px;
-}
-.main-artice p{
-    font-size: 16px;
-    font-weight: 500;
+.news1-article{
     color: rgba(14, 14, 14, 0.7);
-    line-height: 24px;
-    
+    font-size: 16px;
+    font-weight: 400 ;
+    margin-top: 9px;
+
 }
+
 
 .news1-btn{
     color: white;
@@ -257,4 +270,61 @@ header{
 
 .news1-btn:hover{
     background-color: red;
+}
+
+/* news2 style here  */
+.news2{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.news2-image img{
+    border-radius: 24px;
+}
+.news2-content{
+    margin-left: 32px;
+}
+.news2-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+
+.news2-article{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-right: 32px;
+    margin-top: 9px;
+}
+
+/* donate now style start here  */
+.donate-title{
+    text-align: center;
+}
+
+.donate-title p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* amount card start here  */
+
+
+.amount-card1{
+    background: #FFFFFF;
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.amount-card1 h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
 }
