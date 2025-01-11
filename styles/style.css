@@ -28,6 +28,8 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 24px 0;
+    margin-top: 10px!important;
+    margin-bottom: 20px !important;
 }
 
 .logo-text{
@@ -44,7 +46,12 @@ header{
     border-radius: 8px;
     padding:15px 30px;
 }
-
+.header-btn button:hover{
+    background: #e40822;
+    color: white;
+    border: 1px solid #a83c5b;
+    transition: .5s;
+}
 /* banner style start here  */
 .banner{
     background-color: #C6E4D6;
@@ -55,9 +62,6 @@ header{
     border-radius: 24px;
 }
 
-.section-title{
-
-}
 .section-title h4{
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
@@ -80,7 +84,10 @@ header{
     border-radius: 8px;
 }
 .banner-btn:hover{
-    background: red;
+    background: #e40822;
+    color: white;
+    transition: .5s;
+    border: 1px solid #a83c5b;
 }
 /* vision of future section style start here  */
 .vision-of-future{
@@ -453,3 +460,60 @@ input:focus{
 }
 
 /* button style star  */
+.subscribe-field{
+    background-color: #fff;
+    width: 600px;
+    padding: 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+}
+
+.subscribe-field::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+    text-align: left;
+}
+
+.subscribe-btn{
+    padding: 15px 34px ;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    color: white;
+}
+
+.subscribe-btn:hover{
+    cursor: pointer;
+}
+
+.newsletter-form{
+    margin: 24px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-sub-title{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* social icon style start here  */
+.social-icon{
+    padding: 50px 160px;
+    background-color: #fff;
+}
+
+.icon-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin-top: 190px;
+}
