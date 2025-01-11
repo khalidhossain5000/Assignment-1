@@ -51,6 +51,7 @@ header{
     color: white;
     border: 1px solid #a83c5b;
     transition: .5s;
+    cursor: pointer;
 }
 /* banner style start here  */
 .banner{
@@ -88,6 +89,7 @@ header{
     color: white;
     transition: .5s;
     border: 1px solid #a83c5b;
+    cursor: pointer;
 }
 /* vision of future section style start here  */
 .vision-of-future{
@@ -139,6 +141,15 @@ header{
     border-radius: 8px;
     margin-top: 48px;
 }
+
+.card-btn2:hover{
+    background-color: #004d2b;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+
+
 .card-item3{
     background-color: #F7EBCF;
     padding: 32px;
@@ -158,6 +169,13 @@ header{
     border-radius: 8px;
     background: #FFC239;
     margin-top: 64px;
+}
+
+.card-btn3:hover{
+    background: #b84c23;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
 }
 
 .card-title{
@@ -183,7 +201,13 @@ header{
     background: #5490F5;
     margin-top: 25px;
 }
-
+.card-btn:hover{
+    background-color: #3e1f5d;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+    
+}
 /* quote css start */
 .quote{
     margin-top: 32px;
@@ -276,7 +300,10 @@ header{
 
 
 .news1-btn:hover{
-    background-color: red;
+    background-color: #e20822;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
 }
 
 /* news2 style here  */
@@ -335,14 +362,14 @@ header{
 
 
 .amount-card1{
-    background: #FFFFFF;
+    background: #ddd;
     padding: 40px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     width: 240px;
 }
 
-.amount-card1 h3{
+.amount-card1{
     font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
@@ -356,7 +383,7 @@ header{
     width: 240px;
 }
 
-.amount-card2 h3{
+.amount-card2{
     font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
@@ -364,14 +391,14 @@ header{
 
 
 .amount-card3{
-    background: #FFFFFF;
+    background: #ddd;
     padding: 40px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     width: 240px;
 }
 
-.amount-card3 h3{
+.amount-card3{
     font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
@@ -379,14 +406,14 @@ header{
 
 
 .amount-card4{
-    background: #FFFFFF;
+    background: #ddd;
     padding: 40px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     width: 240px;
 }
 
-.amount-card4 h3{
+.amount-card4{
     font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
@@ -395,7 +422,8 @@ header{
 .amount-card:hover{
     background-color: #e03275;
     transition: .5s;
-    color: white !important;
+    color: whitesmoke;
+    cursor: pointer;
 }
 
 /* donate button style  */
@@ -433,6 +461,13 @@ input:focus{
     margin: 32px;
 }
 
+.donate-btn:hover{
+    background: #e20822;
+    color: white;
+    transition: .3s;
+    border: 1px solid #a83c5b;
+    cursor: pointer;
+}
 
 /* footer style start here  */
 
@@ -487,6 +522,10 @@ input:focus{
 
 .subscribe-btn:hover{
     cursor: pointer;
+    background: #e20822;
+    color: white;
+    transition: .3s;
+    border: 1px solid #a83c5b;
 }
 
 .newsletter-form{
@@ -515,5 +554,5 @@ input:focus{
     justify-content: center;
     gap: 25px;
     border: 1px solid rgba(14, 14, 14, 0.1);
-    margin-top: 190px;
+    margin: 150px 0px 20px 0px;
 }
